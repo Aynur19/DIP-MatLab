@@ -29,5 +29,5 @@ imshow(imgGrayGradationsN); title('Grayscale N Graddations Image'); pause;
 palette = winter(255);
 imgPalette = rgb2gray(img);
 
-imwrite(imgPalette,'pic_22_2_4.jpg','jpg');
+imwrite(imgPalette, palette, 'pic_22_2_4.jpg','jpg');
 imshow(imgPalette, palette);  title('Winter Palette Image'); pause;
