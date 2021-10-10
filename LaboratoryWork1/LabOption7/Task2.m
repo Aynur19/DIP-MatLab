@@ -1,5 +1,5 @@
 % ОРИГИАЛЬНОЕ ИЗОБРАЖЕНИЕ
-img = imread('resources/Pic_22_2.jpg');               % чтение картинки
+img = imread('../resources/Pic_22_2.jpg');               % чтение картинки
 imshow(img); title('Original Image'); pause;          % вывод картики с заголовком
 
 
