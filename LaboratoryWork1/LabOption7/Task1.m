@@ -1,5 +1,5 @@
 % ОРИГИАЛЬНОЕ ИЗОБРАЖЕНИЕ
-img = imread('../resources/Pic_22_1.bmp');               % чтение картинки
+img = imread('../resources/Pic_22_1.bmp');            % чтение картинки
 imshow(img); title('Original Image'); pause;          % вывод картики с заголовком
 
 % ПРЯМОУГОЛЬНАЯ СЕТКА =====================================================
@@ -31,7 +31,7 @@ circleRadius = 150;
 circleColor = [255 127 0];
 circleOpacity = 0.5;
 
-% рисуем на картинке полупрозрачный круг
+% вставляем на картинку полупрозрачный круг
 img = insertShape(img,'FilledCircle', [circleCenterX circleCenterY circleRadius],...
                       'Color', circleColor, 'Opacity', circleOpacity);
 
@@ -46,7 +46,7 @@ squareSide = 200;
 squareColor = [255 0 0];
 squareOpacity = 0.5;
 
-% рисуем на картинке полупрозрачным квадрат
+% вставляем на картинку полупрозрачным квадрат
 img = insertShape(img,'FilledRectangle', [squareX squareY squareSide squareSide],...
                       'Color', squareColor, 'Opacity', squareOpacity);
                   
