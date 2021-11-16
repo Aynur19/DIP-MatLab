@@ -20,12 +20,11 @@
 
 Solution script: [Task01.m][Task01]
 
-|Results|
-|:---:|
-|Original image <br> ![res01]|
-|Adding a rectangular grid <br> ![result01_01]|
-|Adding a semi-transparent circle <br> ![result01_02]|
-|Adding a semi-transparent square <br> ![result01_03]|
+:Results:
+|||
+|:---:|:---:|
+|Original image <br> ![res01]|Adding a rectangular grid <br> ![result01_01]|
+|Adding a semi-transparent circle <br> ![result01_02]|Adding a semi-transparent square <br> ![result01_03]|
 
 ### Task 2
 1. Convert original image to:
@@ -37,12 +36,11 @@ Solution script: [Task01.m][Task01]
 
 Solution script: [Task02.m][Task02]
 
-|Results|
-|:---:|
-|Original image <br> ![res02]|
-|Halftone <br> ![result02_01]|
-|Negative image <br> ![result02_02]|
-|Grayscale with a specified number of gradations (N = 10) <br> ![result02_03]|
+:Results:
+|||
+|:---:|:---:|
+|Original image <br> ![res02]|Halftone <br> ![result02_01]|
+|Negative image <br> ![result02_02]|Grayscale with a specified number of gradations (N = 10) <br> ![result02_03]|
 |Palette image (palette - WINTER) <br> ![result02_04]|
 
 [Task01]: Task01.m
