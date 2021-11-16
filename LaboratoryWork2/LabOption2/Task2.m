@@ -14,17 +14,23 @@ ellipsePixels = getEllipse(imageSizeX, imageSizeY, centerX, centerY, radiusX, ra
 
 img = ellipsePixels;
 img  = (img-mean(img(:)))/max(img(:));
-figure(); 
-imshow(img); title('Binary image of a ellipse');
-imwrite(img, 'results/l2_o2_t2_1.png');
+figure(); imshow(img); title('Binary image of a ellipse');
+imwrite(img, 'results/lab2_opt2_task2_01.png');
 
 CH = chessShifting(imageSizeX, imageSizeY);
 
-A = img.*CH;
-B = real(fft2(A)); 
-figure(); 
-imshow(B); title('Centered ellipse spectrum');
-imwrite(B, 'results/l2_o2_t2_2.png');
+% A = img.*CH;
+% B = abs(fftshift(fft2(A)));
+B = abs(fftshift(fft2(img))); 
+B = B/max(B(:));
+figure(); imshow(B, []); title('Centered ellipse spectrum');
+imwrite(B, 'results/lab2_opt2_task2_2.png');
+
+BL = log(1 + 1000*B); 
+BL = BL/max(BL(:));
+figure(); imshow(BL, []); title('Centered ellipse spectrum with logarithm translate');
+imwrite(BL, 'results/lab2_opt2_task2_3.png');
+
 
 function ellipse = getEllipse(imgX, imgY, centerX, centerY, radiusX, radiusY)
     [columnsInImage, rowsInImage] = meshgrid(1:imgX, 1:imgY);
