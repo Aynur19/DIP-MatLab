@@ -10,7 +10,7 @@ x = linspace(0, size, size);   % vector from 0 to width
 y = linspace(0, size, size);  % vector from 0 to height
 [X, Y] = meshgrid(x , y);       % matrices of x and y values at each position
 
-RW0=RingWave(A, X-(size), Y-(1), lambda);  
+RW0=RingWave(A, X-(1), Y-(1), lambda);  
 RW1=RingWave(A, X-(1), Y-(size), lambda);  
 
 img = zeros(size);
