@@ -19,6 +19,7 @@ img(:, :, 3) = RW1;     % insert blu wave
 img = normalize(img, 'range');
 
 figure(); imshow(img, []); title('Red and Blue Waves Interference');
+imwrite(img, 'results/lab01_opt08_task02_01.jpg');
 
 function RW = RingWave(amp, x, y, lambda)
     r1 = sqrt(x.*x+y.*y);   % dot notation: multiply element-wise
