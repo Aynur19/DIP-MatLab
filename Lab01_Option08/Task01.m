@@ -3,7 +3,6 @@ close all;
 clear all;
 
 size = 1000;
-
 img = zeros(size, size);
 
 length = 5;
