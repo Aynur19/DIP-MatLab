@@ -44,15 +44,81 @@ Solution script: [Task02.m][Task02]
 
 
 ---
+### Task 3
+1. Given the image **Img2_01_3.jpg**. Construct a histogram of the brightness of the specified image.
+2. Use the `imajust` function to correct the contrast. Construct a histogram of the brightness of the corrected image.
+3. Use the `histeq` function to equalize the histogram. Build a histogram of luminance after equalization.
+4. Use the `imlocalbrighten` function to improve contrast. Construct a histogram of the corrected image.
+5. Use the `imcontrast` function to improve brightness and contrast. Construct a histogram of the corrected image.
+
+Solution script: [Task03.m][Task03]
+
+<table width="100%">
+  <tr align="center">
+    <td width="50%">
+        Original image <br>
+        <img src="resources/Img2_01_3.jpg">
+    </td>
+    <td width="50%">
+        Brightness histogram of the original image <br>
+        <img src="results/lab02_opt01_task03_01.png">        
+    </td>
+  </tr>
+  <tr align="center">
+    <td width="50%">
+        Image after contrast correction: <code>imadjust(gamma=25.0)</code> <br>
+        <img src="results/lab02_opt01_task03_02.png">
+    </td>
+    <td width="50%">
+        Brightness histogram after brightness correction <code>imadjust(gamma=25.0)</code> <br>
+        <img src="results/lab02_opt01_task03_03.png">        
+    </td>
+  </tr>
+  <tr align="center">
+    <td width="50%">
+        Image after histogram equalization: <code>histeq()</code> <br>
+        <img src="results/lab02_opt01_task03_04.png">
+    </td>
+    <td width="50%">
+        Brightness histogram after histogram equalization: <code>histeq()</code> <br>
+        <img src="results/lab02_opt01_task03_05.png">        
+    </td>
+  </tr>
+  <tr align="center">
+    <td width="50%">
+        Image after contrast improvement: <code>imadjust(gamma=50.0) + imlocalbrighten(amount=0.5)</code> <br>
+        <img src="results/lab02_opt01_task03_06.png">
+    </td>
+    <td width="50%">
+        Brightness histogram after contrast improvement: <code>imadjust(gamma=50.0) + imlocalbrighten(amount=0.5)</code> <br>
+        <img src="results/lab02_opt01_task03_07.png">        
+    </td>
+  </tr>
+  <tr align="center">
+    <td width="50%">
+        Image after improving brightness and contrast: <code>imcontrast()</code> <br>
+        <img src="results/lab02_opt01_task03_08.png">
+    </td>
+    <td width="50%">
+        Brightness histogram after improving brightness and contrast: <code>imcontrast()</code> <br>
+        <img src="results/lab02_opt01_task03_09.png">        
+    </td>
+  </tr>
+</table>
+
+
+---
 [en]: README.md
 [ru]: README-ru.md
 [Task01]: Task01.m
 [Task02]: Task02.m
 [Task03]: Task03.m
+
 [source01_01]: resources/Img2_01_1.jpg
 [source03_01]: resources/Img2_01_3.jpg
 [result01_01]: results/lab02_opt01_task01_01.png
 [result01_02]: results/lab02_opt01_task01_02.png
+
 [result02_01]: results/lab02_opt01_task02_01.png
 [result02_02]: results/lab02_opt01_task02_02.png
 [result02_03]: results/lab02_opt01_task02_03.png
@@ -67,6 +133,7 @@ Solution script: [Task02.m][Task02]
 [result02_12]: results/lab02_opt01_task02_12.png
 [result02_13]: results/lab02_opt01_task02_13.png
 [result02_14]: results/lab02_opt01_task02_14.png
+
 [result03_01]: results/lab02_opt01_task03_01.png
 [result03_02]: results/lab02_opt01_task03_02.png
 [result03_03]: results/lab02_opt01_task03_03.png

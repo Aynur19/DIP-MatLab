@@ -46,14 +46,13 @@
 
 ---
 ### Задание 3
-1. Дано изображение **Img2_02_3.jpg**. Построить гистограмму яркости заданного изображения.
+1. Дано изображение **Img2_01_3.jpg**. Построить гистограмму яркости заданного изображения.
 2. Использовать функцию `imajust` для коррекции контраста. Построить гистограмму яркости скорректированного изображения.
 3. Использовать функцию `histeq` для эквализации гистограммы. Построить гистограмму яркости после эквализации. 
 4. Использовать функцию `imlocalbrighten` для улучшения контраста. Построить гистограмму скорректированного изображения.
 5. Использовать функцию `imcontrast` для улучшения яркости и контраста. Построить гистограмму скорректированного изображения.
 
 Скрипт решения: [Task03.m][Task03]
-
 
 <table width="100%">
   <tr align="center">
@@ -88,11 +87,11 @@
   </tr>
   <tr align="center">
     <td width="50%">
-        Изображение после улучшения контраста: <code>imadjust(gamma=50.0) + imlocalbrighten()</code> <br>
+        Изображение после улучшения контраста: <code>imadjust(gamma=50.0) + imlocalbrighten(amount=0.5)</code> <br>
         <img src="results/lab02_opt01_task03_06.png">
     </td>
     <td width="50%">
-        Гистограмма яркости после улучшения контраста: <code>imadjust(gamma=50.0) + imlocalbrighten()</code> <br>
+        Гистограмма яркости после улучшения контраста: <code>imadjust(gamma=50.0) + imlocalbrighten(amount=0.5)</code> <br>
         <img src="results/lab02_opt01_task03_07.png">        
     </td>
   </tr>
@@ -119,6 +118,7 @@
 [source03_01]: resources/Img2_01_3.jpg
 [result01_01]: results/lab02_opt01_task01_01.png
 [result01_02]: results/lab02_opt01_task01_02.png
+
 [result02_01]: results/lab02_opt01_task02_01.png
 [result02_02]: results/lab02_opt01_task02_02.png
 [result02_03]: results/lab02_opt01_task02_03.png
@@ -133,6 +133,7 @@
 [result02_12]: results/lab02_opt01_task02_12.png
 [result02_13]: results/lab02_opt01_task02_13.png
 [result02_14]: results/lab02_opt01_task02_14.png
+
 [result03_01]: results/lab02_opt01_task03_01.png
 [result03_02]: results/lab02_opt01_task03_02.png
 [result03_03]: results/lab02_opt01_task03_03.png
