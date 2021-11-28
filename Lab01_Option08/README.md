@@ -1,3 +1,5 @@
+[<< To main][main_en] 
+
 # Course "Digital Image Processing"
 [Read in Russian][ru]
 
@@ -19,6 +21,7 @@ Solution script: [Task01.m][Task01]
 |:---:|
 |Grayscale with vertical stripes <br> ![result01_01]|
 
+
 ---
 ### Task 2
 1. Create a color picture 500x500 pixels in size with the image of the interference of two ring waves of red color 20 pixels length, emanating from the upper left and lower left corners.
@@ -34,7 +37,12 @@ Solution script: [Task02.m][Task02]
 ---
 [en]: README.md
 [ru]: README-ru.md
+
+[main_en]: ../README.md
+[main_ru]: ../README-ru.md
+
 [Task01]: Task01.m
 [Task02]: Task02.m
+
 [result01_01]: results/lab01_opt08_task01_01.jpg
 [result02_01]: results/lab01_opt08_task02_01.jpg

@@ -1,3 +1,5 @@
+[<< To main][main_en] 
+
 # Course "Digital Image Processing"
 [Read in Russian][ru]
 
@@ -104,6 +106,10 @@ Solution script: [Task03.m][Task03]
 ---
 [en]: README.md
 [ru]: README-ru.md
+
+[main_en]: ../README.md
+[main_ru]: ../README-ru.md
+
 [Task01]: Task01.m
 [Task02]: Task02.m
 [Task03]: Task03.m
@@ -123,7 +129,6 @@ Solution script: [Task03.m][Task03]
 [result02_05]: results/lab02_opt02_task02_05.png
 [result02_06]: results/lab02_opt02_task02_06.png
 [result02_07]: results/lab02_opt02_task02_07.png
-
 
 [result03_01]: results/lab02_opt02_task03_01.png
 [result03_02]: results/lab02_opt02_task03_02.png

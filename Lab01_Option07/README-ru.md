@@ -1,3 +1,5 @@
+[<< На главную][main_ru] 
+
 # Курс "Цифровая обработка изображений"
 [Read in English][en]
 
@@ -24,7 +26,7 @@
 
 |||
 |:---:|:---:|
-|Исходное изображение <br> ![res01]|Добавление прямоугольной сетки <br> ![result01_01]|
+|Исходное изображение <br> ![source01]|Добавление прямоугольной сетки <br> ![result01_01]|
 |Добавление полупрозрачного круга <br> ![result01_02]|Добавление полупрозрачного квадрата <br> ![result01_03]|
 
 
@@ -41,7 +43,7 @@
 
 |||
 |:---:|:---:|
-|Исходное изображение <br> ![res02]|Полутоновое изображение <br> ![result02_01]|
+|Исходное изображение <br> ![source02]|Полутоновое изображение <br> ![result02_01]|
 |Негативное изображение <br> ![result02_02]|Полутоновое с заданным числом градаций (N = 10) <br> ![result02_03]|
 |Палитровое изображение (палитра - WINTER) <br> ![result02_04]|
 
@@ -49,10 +51,16 @@
 ---
 [en]: README.md
 [ru]: README-ru.md
+
+[main_en]: ../README.md
+[main_ru]: ../README-ru.md
+
 [Task01]: Task01.m
 [Task02]: Task02.m
-[res01]: resources/Pic_22_1.bmp
-[res02]: resources/Pic_22_2.jpg
+
+[source01]: resources/Pic_22_1.bmp
+[source02]: resources/Pic_22_2.jpg
+
 [result01_01]: results/lab01_opt07_task01_01.bmp
 [result01_02]: results/lab01_opt07_task01_02.bmp
 [result01_03]: results/lab01_opt07_task01_03.bmp

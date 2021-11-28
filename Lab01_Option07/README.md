@@ -1,3 +1,5 @@
+[<< To main][main_en] 
+
 # Course "Digital Image Processing"
 [Read in Russian][ru]
 
@@ -24,7 +26,7 @@ Solution script: [Task01.m][Task01]
 
 |||
 |:---:|:---:|
-|Original image <br> ![res01]|Adding a rectangular grid <br> ![result01_01]|
+|Original image <br> ![source01]|Adding a rectangular grid <br> ![result01_01]|
 |Adding a semi-transparent circle <br> ![result01_02]|Adding a semi-transparent square <br> ![result01_03]|
 
 
@@ -39,10 +41,9 @@ Solution script: [Task01.m][Task01]
 
 Solution script: [Task02.m][Task02]
 
-
 |||
 |:---:|:---:|
-|Original image <br> ![res02]|Halftone <br> ![result02_01]|
+|Original image <br> ![source02]|Halftone <br> ![result02_01]|
 |Negative image <br> ![result02_02]|Grayscale with a specified number of gradations (N = 10) <br> ![result02_03]|
 |Palette image (palette - WINTER) <br> ![result02_04]|
 
@@ -50,10 +51,16 @@ Solution script: [Task02.m][Task02]
 ---
 [en]: README.md
 [ru]: README-ru.md
+
+[main_en]: ../README.md
+[main_ru]: ../README-ru.md
+
 [Task01]: Task01.m
 [Task02]: Task02.m
-[res01]: resources/Pic_22_1.bmp
-[res02]: resources/Pic_22_2.jpg
+
+[source01]: resources/Pic_22_1.bmp
+[source02]: resources/Pic_22_2.jpg
+
 [result01_01]: results/lab01_opt07_task01_01.bmp
 [result01_02]: results/lab01_opt07_task01_02.bmp
 [result01_03]: results/lab01_opt07_task01_03.bmp

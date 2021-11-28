@@ -1,3 +1,5 @@
+[<< To main][main_en] 
+
 # Course "Digital Image Processing"
 [Read in Russian][ru]
 
@@ -28,17 +30,23 @@ Solution script: [Task02.m][Task02]
 
 |||
 |:---:|:---:|
-|Original Image 1 <br> ![res01]| Original Image 2 <br> ![res02]|
+|Original Image 1 <br> ![source01]| Original Image 2 <br> ![source02]|
 |Composition of two images <br> ![result02_01]|
 
 
 ---
 [en]: README.md
 [ru]: README-ru.md
+
+[main_en]: ../README.md
+[main_ru]: ../README-ru.md
+
 [Task01]: Task01.m
 [Task02]: Task02.m
-[res01]: resources/Pic_12_1.jpg
-[res02]: resources/Pic_12_2.jpg
+
+[source01]: resources/Pic_12_1.jpg
+[source02]: resources/Pic_12_2.jpg
+
 [result01_01]: results/lab01_opt01_task01_01.jpg
 [result01_02]: results/lab01_opt01_task01_02.jpg
 [result01_03]: results/lab01_opt01_task01_03.jpg
