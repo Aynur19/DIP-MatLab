@@ -1,10 +1,36 @@
-# Курс "Цифровая обработка изображений"
+# Course "Digital Image Processing"
+[Read in Russian][ru]
 
-Работа выполняется на MatLab
+The work is done on **MatLab**
 
-### Лабораторная работа 1 
-- [Вариант 1](LaboratoryWork1/LabOption1/README-ru.md)
-- [Вариант 7](LaboratoryWork1/LabOption7/README-ru.md)
+### Lab 1 
+- [Option 1][lab01_opt01_en]
+- [Option 7][lab01_opt07_en]
+- [Option 8][lab01_opt08_en]
 
-### Лабораторная работа 2
-- [Вариант 2](LaboratoryWork2/LabOption2/README-ru.md)
+### Lab 2
+- [Option 1][lab02_opt01_en]
+- [Option 2][lab02_opt02_en]
+
+
+---
+[en]: README.md
+[ru]: README-ru.md
+
+[lab01_opt01_en]: Lab01_Option01/README.md
+[lab01_opt01_ru]: Lab01_Option01/README-ru.md
+
+[lab01_opt07_en]: Lab01_Option07/README.md
+[lab01_opt07_ru]: Lab01_Option07/README-ru.md
+
+[lab01_opt08_en]: Lab01_Option08/README.md
+[lab01_opt08_ru]: Lab01_Option08/README-ru.md
+
+[lab02_opt01_en]: Lab02_Option01/README.md
+[lab02_opt01_ru]: Lab02_Option01/README-ru.md
+
+[lab02_opt02_en]: Lab02_Option02/README.md
+[lab02_opt02_ru]: Lab02_Option02/README-ru.md
+
+
+
