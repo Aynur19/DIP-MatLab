@@ -24,12 +24,12 @@
 
 Скрипт решения: [Task01.m][Task01]
 
-|||
+|Исходное изображение|Изображение после сдвига на 100 пикселей вправо и вниз|
 |:---:|:---:|
-|<br>![task01_imgOrigin]|<br>![task01_imgShifted]|
-|<br>![task01_imgOriginAS]|<br>![task01_imgShiftedAS]|
-|<br>![task01_imgOriginASL]|<br>![task01_imgShiftedASL]|
-|<br>![task01_imgOriginFS]|<br>![task01_imgShiftedFS]|
+|Исходное изображение<br>![task01_imgOrigin]|Изображение после сдвига<br>![task01_imgShifted]|
+|Амплитудный спектр<br>![task01_imgOriginAS]|Амплитудный спектр<br>![task01_imgShiftedAS]|
+|Амплиудный спектр с логарифмическим преобразованием<br>![task01_imgOriginASL]|Амплиудный спектр с логарифмическим преобразованием<br>![task01_imgShiftedASL]|
+|Фазовый спектр<br>![task01_imgOriginFS]|Фазовый спектр<br>![task01_imgShiftedFS]|
 
 
 ---
