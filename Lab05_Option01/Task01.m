@@ -28,7 +28,6 @@ imwrite(imgAS2/max(imgAS2(:)), 'results/lab05_opt01_task01_imgOriginAS.jpg');
 imwrite(imgASL/max(imgASL(:)), 'results/lab05_opt01_task01_imgOriginASL.jpg');
 imwrite(imgFS/max(imgFS(:)), 'results/lab05_opt01_task01_imgOriginFS.jpg');
 
-%HB = zeros(imgY, imgX);
 
 % значения сдвига
 xShift = 100; % вправо на 100 пикселей
