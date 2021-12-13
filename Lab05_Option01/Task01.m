@@ -11,14 +11,14 @@ img = load('resources/A5_01_1.mat', '-ascii');
 % вывод координаты левого верхнего угла прямоугольника на изображении
 printRectUpperLeftCornerCoords(img)
 
-imgAS = fftshift(fft2(img));   % вычисление АС изображения
+imgAS = fft2(img);   % вычисление АС изображения
 imgFS = angle(imgAS);             % вычисление ФС изображения
 imgASL = log(1 + 10*abs(imgAS));  % логарифмическое преобразование АС
 imgAS2 = abs(imgAS);
 
 % вывод изображений
-figure(); imshow(img);                      title('Исходное изображение');
-figure(); imshow(imgAS2, []);              title('АС исходного изображения');
+figure(); imshow(img);                         title('Исходное изображение');
+figure(); imshow(imgAS2, []);                  title('АС исходного изображения');
 figure(); imshow(imgASL, []);                  title('АС после логарифмического преобразования');
 figure(); imshow(imgFS,[]); colormap(gray);    title('ФС исходного изображения');
 
@@ -40,7 +40,7 @@ yShift = 100; % вниз на 100 пикселей
 imgShiftedAS = imgAS.*exp(-1i*2*pi.*(xF*xShift + yF*yShift)/200);   % сдвиг спектра в частотой области => АС изображения после сдвига
 imgShiftedFS = angle(imgShiftedAS);                                 % вычисление ФС после сдвига
 imgShiftedASL = log(1 + 10*abs(imgShiftedAS));                      % логариф. преобразование АС изображения после сдвига
-imgShifted = abs(ifft2(ifftshift(imgShiftedAS)));                   % получение изображения после сдвига
+imgShifted = abs(ifft2(imgShiftedAS));                   % получение изображения после сдвига
 imgShiftedAS = abs(imgShiftedAS);
 
 % вывод координаты левого верхнего угла прямоугольника на изображении после сдвига
