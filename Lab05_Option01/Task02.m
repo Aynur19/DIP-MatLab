@@ -38,10 +38,12 @@ imwrite(imgShiftedASL_XY, 'results/lab05_opt01_task02_imgShiftedASL_XY.jpg');
 
 
 % ЦЕНТРИРОВАНИЕ СПЕКТРА ПУТЕМ ПРЕОБРАЗОВАНИЯ В ЧАСТОТНОЙ ОБЛАСТИ
-imgShiftedAS_UV = abs(fftshift(fft2(img)));       % центрирование АС изображения в частотной области
-imgShiftedASL_UV = log(1 + 10*imgShiftedAS_UV);   % логарифмическое преобразование центрированного АС изображения
-imgShifted_UV =  real(ifft2(imgShiftedAS_UV));    % построение изображение в пространственной области, 
-                                                  %   соответсвующее центрированному АС изображения в частотной области
+imgShiftedAS_UV = fftshift(fft2(img));              % центрирование АС изображения в частотной области
+imgShifted_UV =  real(ifft2(imgShiftedAS_UV));      % построение изображение в пространственной области, 
+                                                    %   соответсвующее центрированному АС изображения в частотной области
+imgShiftedAS_UV = abs(imgShiftedAS_UV);
+imgShiftedASL_UV = log(1 + 10*imgShiftedAS_UV);     % логарифмическое преобразование центрированного АС изображения
+
 % вывод изображений
 figure(); imshow(imgShiftedAS_UV, []);       title('Центрированный АС изображения');
 figure(); imshow(imgShiftedASL_UV, []);      title('Центрированный АС после логарифмического преобразования');

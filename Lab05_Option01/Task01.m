@@ -39,7 +39,7 @@ yShift = 100; % вниз на 100 пикселей
 imgShiftedAS = imgAS.*exp(-1i*2*pi.*(xF*xShift + yF*yShift)/200);   % сдвиг спектра в частотой области => АС изображения после сдвига
 imgShiftedFS = angle(imgShiftedAS);                                 % вычисление ФС после сдвига
 imgShiftedASL = log(1 + 10*abs(imgShiftedAS));                      % логариф. преобразование АС изображения после сдвига
-imgShifted = abs(ifft2(imgShiftedAS));                   % получение изображения после сдвига
+imgShifted = abs(ifft2(imgShiftedAS));                              % получение изображения после сдвига
 imgShiftedAS = abs(imgShiftedAS);
 
 % вывод координаты левого верхнего угла прямоугольника на изображении после сдвига
