@@ -62,8 +62,18 @@
     >Рекомендация. Частоту среза ФВЧ выберите около 200 пикселей.
 5. Сохраните все построенные изображения в формате ***.jpg*** для представления в отчете с комментариями.
 
+Скрипт решения: [Task03.m][Task03]
 
-
+||
+|:---:|
+|1. Исходное изображение<br>![source02]|
+|2. Полутоновое изображение<br>![task03_imgGray]|
+|3. Центрированный АС изображения с логарифмическим преобразованием<br>![task03_imgCAS]|
+|4. Расфокусированное (размытое) изображение<br>![task03_imgBlured]|
+|5. Результат повышения резкости с помощью фильтра Лапласа<br>![task03_imgFilteredL]|
+|6. ГФВЧ (Гауссовский фильтр высоких частот)<br>![task03_imgFilterG]|
+|7. Изображение с выделенными контурами<br>![task03_imgFilteredG]|
+|8. Инвертированное изображение с выделенными контурами<br>![task03_imgInvertFilteredG]|
 
 ---
 [en]: README.md
@@ -94,3 +104,11 @@
 [task02_imgShifted_UV]: results/lab05_opt01_task02_imgShifted_UV.jpg
 [task02_imgShiftedAS_UV]: results/lab05_opt01_task02_imgShiftedAS_UV.jpg
 [task02_imgShiftedASL_UV]: results/lab05_opt01_task02_imgShiftedASL_UV.jpg
+
+[task03_imgGray]: results/lab05_opt01_task03_imgGray.jpg
+[task03_imgCAS]: results/lab05_opt01_task03_imgCAS.jpg
+[task03_imgBlured]: results/lab05_opt01_task03_imgBlured.jpg
+[task03_imgFilteredL]: results/lab05_opt01_task03_imgFilteredL.jpg
+[task03_imgFilterG]: results/lab05_opt01_task03_imgFilterG.jpg
+[task03_imgFilteredG]: results/lab05_opt01_task03_imgFilteredG.jpg
+[task03_imgInvertFilteredG]: results/lab05_opt01_task03_imgInvertFilteredG.jpg
